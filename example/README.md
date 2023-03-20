@@ -7,29 +7,13 @@ export CLIENT_ID="your client id"
 export CLIENT_SECRET="your client secret"
 ```
 
-The following authorization services are provided as examples to get a better idea of how to use this library on some of the most common use cases:
+Here is the example of running for Teem, once this service is up, please goto http://localhost:3000
 
+### Teem
 
-### Microsoft
-
-Microsoft requires the credentials information during the token exchange to be sent at the request body. It also requires to send the **redirect_uri** argument. See the `./microsoft.js` module as a reference implementation or execute the example with:
-
-```bash
-npm run start:microsoft
-```
-
-### Github
-
-See the `./github.js` module as a reference implementation or execute the example with:
+See the `./teem.js` module as a reference implementation or execute the example with:
 
 ```bash
-npm run start:github
+npm run start:teem
 ```
 
-### Dropbox
-
-See the `./dropbox.js` module as a reference implementation or execute the example with:
-
-```bash
-npm run start:dropbox
-```
